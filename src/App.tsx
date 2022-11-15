@@ -17,7 +17,6 @@ if (walletAddress) {
       <>
       <div style={{width: "80%", margin: "auto"}}>
         <h1> {title}  </h1>
-        {/*<FormControls onSubmit={onSubmit}/>*/}
         <Search placeholder="Input Wallet Address" onSearch={onSearch} enterButton style={{ width: 500, margin:"auto" }}/>
         <Transactions chainId={1} address={walletAddress}/>
       </div>
@@ -28,7 +27,6 @@ if (walletAddress) {
       <>
       <div style={{width: "80%", margin: "auto"}}>
         <h1> {title}  </h1>
-        {/*<FormControls onSubmit={onSubmit}/>*/}
         <Search placeholder="Input Wallet Address" onSearch={onSearch} enterButton style={{ width: 500, margin:"auto" }}/>
       </div>
       </>

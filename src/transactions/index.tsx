@@ -1,9 +1,8 @@
 import axios, { AxiosRequestConfig, AxiosBasicCredentials, AxiosResponse } from 'axios';
 import React, { useState, useEffect } from 'react';
-import { TransactionsProps, Transaction, CovalentAPIBaseResponse, CategorizedTransaction } from '../types';
+import { TransactionsProps, CovalentAPIBaseResponse, CategorizedTransaction } from '../types';
 import { transform } from '../utils/transactions';
 import { categorizeTransaction } from '../utils/categorize';
-import ERC20Card from '../transactions/ERC20Card';
 import 'antd/dist/antd.css';
 import { Table, Tag, Popover, Descriptions } from 'antd';
 import type { ColumnsType } from 'antd/es/table';
